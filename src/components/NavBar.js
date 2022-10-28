@@ -11,8 +11,8 @@ function NavBar () {
                 <img src={logo} className="img-beer"></img>
             </div>
 
-            <div className="indice">
-                <ul>
+            <div className="indices">
+                <ul className="indice1">
                     <li className="opciones opcion-cerveza">
                         <a href="#">CERVEZAS</a>
                     </li>
@@ -24,13 +24,12 @@ function NavBar () {
                     <li className="opciones opcion-gaseosas">
                         <a href="#">GASEOSAS</a>
                     </li>
-
-                    <li className="opciones opcion-input">
-                        <Buscador/>
-                    </li>
-
-                    <li className="opciones opcion-boton">
-                        <Boton/>
+                </ul>
+                <ul className="indice2">
+                    
+                    <li className="opciones opcion-buscador">
+                        <Buscador className="input-b"/>
+                        <Boton className="boton-b"/>
                     </li>
 
                     <li className="opciones opcion-cart">
