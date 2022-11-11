@@ -1,10 +1,11 @@
-import logo from "../img/logo.png";
-import Buscador from "./Buscador";
-import Boton from "./Boton";
+import React from 'react'
+import logo from "../../img/logo.png";
+import Buscador from "../Buscador";
+import Boton from "../Boton";
 import { HiOutlineShoppingCart } from "react-icons/hi";
-import '../style.css'
+import './navBar.css'
 
-function NavBar () {
+export const NavBar = () => {
     return (
         <nav className="header">
             <div className="logo-beer">
@@ -39,7 +40,7 @@ function NavBar () {
             </div>
         </nav>
 
-    )
+    );
 }
 
-export default NavBar;
+export default NavBar

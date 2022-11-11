@@ -1,0 +1,59 @@
+
+ 
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+ 
+ /* -------------------- 
+        HEADER Y FOOTER
+    -------------------- */
+
+    nav {
+        background-color: #FFF244;
+
+    }
+
+    .img-beer {
+        width: 25vw;
+    }
+
+
+    nav, .cajita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .indices, .indices ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .indices {
+        gap: 30vw;
+    }
+
+    ul {
+        color: rgb(72, 67, 67);
+        font-size: 1.5vw;
+    }
+
+    .opciones{
+        justify-content: space-between;
+        padding: 2vw;
+    }
+
+    button {
+        width: 4vw;
+        height: 1.7vw;
+    }
+
+    input {
+        width: 13vw;
+        font-size: 1.2vw;
+    }
+    

@@ -1,0 +1,32 @@
+.count {
+    width: 15vw;
+    height: 5vw;
+    background-color: #FFF244;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.count button {
+    background-color: #fcf8c4;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.countItem {
+    padding: 1vw;
+}
+
+.countItem button {
+    background-color: #FFF244;
+}
+
+button:focus {
+    background-color: #fff3447b;
+}
