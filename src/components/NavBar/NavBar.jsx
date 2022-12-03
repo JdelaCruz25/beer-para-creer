@@ -1,17 +1,16 @@
 import React from 'react'
 import logo from "../../img/logo.png";
 import Buscador from "../Buscador";
-import Boton from "../Boton";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import './navBar.css'
 
-export const NavBar = () => {
+const NavBar = (props) => {
+
     return (
         <nav className="header">
             <div className="logo-beer">
                 <img src={logo} className="img-beer"></img>
             </div>
-
             <div className="indices">
                 <ul className="indice1">
                     <li className="opciones opcion-cerveza">
@@ -30,11 +29,10 @@ export const NavBar = () => {
                     
                     <li className="opciones opcion-buscador">
                         <Buscador className="input-b"/>
-                        <Boton className="boton-b"/>
                     </li>
 
                     <li className="opciones opcion-cart">
-                        <HiOutlineShoppingCart/>
+                        <HiOutlineShoppingCart/> 
                     </li>   
                 </ul>
             </div>

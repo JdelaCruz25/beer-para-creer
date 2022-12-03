@@ -1,0 +1,4 @@
+.cajita {
+    display: grid;
+    grid-template-columns: 2fr;
+}
